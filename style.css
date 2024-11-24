@@ -35,3 +35,30 @@ nav ul li a:hover {
     background-color: #575757;
 }
 
+/* Slideshow Container */
+.slideshow-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none; /* Hide all slides by default */
+}
+
+.slide img {
+    width: 100%; /* Ensure images fill the container */
+    border-radius: 10px; /* Optional: round corners */
+}
+
+/* Fade Effect */
+.fade {
+    animation: fadeEffect 1.5s;
+}
+
+@keyframes fadeEffect {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
