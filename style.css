@@ -62,3 +62,101 @@ nav ul li a:hover {
     from { opacity: 0.4; }
     to { opacity: 1; }
 }
+.process-box {
+    max-width: 600px; /* Limits the box width */
+    margin: 100px auto; /* Centers the box horizontally and adds vertical spacing */
+    padding: 20px; /* Adds padding inside the box */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center-aligns the text */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+
+.process-box h1 {
+    margin-bottom: 20px; /* Adds space below the heading */
+    font-size: 24px;
+    color: #333;
+}
+
+.process-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5; /* Improves readability */
+}
+
+.process-box ol {
+    text-align: left; /* Aligns list items to the left */
+    margin: 15px 0;
+    padding-left: 20px; /* Indents the list */
+}
+
+
+
+/* FAQ Box Styling */
+.FAQ-box {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.FAQ-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.FAQ-box ol {
+    list-style-type: decimal; /* Numbered list */
+    padding-left: 20px; /* Indent list items */
+}
+
+.FAQ-box li {
+    margin-bottom: 15px; /* Adds space between each question and answer */
+}
+
+.FAQ-box .question {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px; /* Adds space below the question */
+}
+
+.FAQ-box .answer {
+    font-size: 14px;
+    color: #555;
+    margin-left: 15px; /* Slight indent for the answer */
+    line-height: 1.5; /* Improves readability */
+}
+/* Store Locator Section */
+.store-locator {
+    max-width: 700px; /* Controls the width of the container */
+    margin: 50px auto; /* Centers the container horizontally and adds vertical space */
+    text-align: center; /* Centers the heading and aligns the content */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Style */
+.store-locator h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Center the Map */
+.store-locator iframe {
+    display: block; /* Treats the iframe as a block element */
+    margin: 0 auto; /* Centers the iframe horizontally */
+    border-radius: 8px; /* Adds rounded corners to the map (optional) */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow for aesthetics (optional) */
+}
