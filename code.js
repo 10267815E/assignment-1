@@ -9,15 +9,15 @@ function showSlides() {
         slide.style.display = "none";
     });
 
-    // Increment slide index
+    // Increment slides to show each slide
     slideIndex++;
     if (slideIndex > slides.length) {
-        slideIndex = 1; // Reset to the first slide
+        slideIndex = 1; // resets to the first sldie
     }
 
-    // Show the current slide
+    // displays the current slide
     slides[slideIndex - 1].style.display = "block";
 
-    // Change slide every 3 seconds
+    // change slide every 3s
     setTimeout(showSlides, 3000);
 }
