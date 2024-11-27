@@ -122,6 +122,39 @@ nav ul li a:hover {
   }
 
 
+
+/* process box style */
+.process-box {
+    max-width: 600px; /* Limits the box width */
+    margin: 100px auto; /* Centers the box horizontally and adds vertical spacing */
+    padding: 20px; 
+    background-color: #f9f9f9; /* same background colour as the FAQ box and store locater */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* rounded corners to match the theme */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow to make it pop out */
+    text-align: center; /* Center-aligns the text */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+
+.process-box h1 {
+    margin-bottom: 20px; /* Adds space below the heading */
+    font-size: 24px;
+    color: #333;
+}
+
+.process-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5; /* Improves readability */
+}
+
+.process-box ol {
+    text-align: left; /* Aligns list items to the left */
+    margin: 15px 0;
+    padding-left: 20px; /* Indents the list */
+}
+
+
 /* FAQ Box Styling */
 .FAQ-box {
     max-width: 600px;
@@ -181,7 +214,7 @@ nav ul li a:hover {
     color: #333;
 }
 
-/* Center the Map */
+/* Centers the Map */
 .store-locator iframe {
     display: block; 
     margin: 0 auto; 
@@ -287,14 +320,14 @@ nav ul li a:hover {
 
 .product-card img {
     max-width: 100%; /* Ensures the image fits within the card */
-    border-radius: 4px; /* Slightly rounded image corners */
+    border-radius: 4px; /* Slightly rounded image corners to match the theme of the other boxes */
     margin-bottom: 10px;
 }
 
 .product-card h3 {
     font-size: 18px;
     margin: 10px 0 5px; /* Adds spacing around the title */
-    color: #333; /* Dark text for readability */
+    color: #333; 
 }
 
 .product-card p {
@@ -303,12 +336,64 @@ nav ul li a:hover {
     color: #555;
 }
 
-/* Availability Styling */
-.availability {
-    font-weight: bold;
-    color: green; /* Green for in stock */
+
+
+/* Scrolling Container */
+.scrolling-container {
+    display: flex; /* horizontal flexbox for scrolling container */
+    overflow-x: auto; /* makes it so the scrolling is horizontal like my wireframe*/
+    white-space: nowrap; /* no wrap */
+    padding: 20px;
+    gap: 20px; /* Spacing between items */
+    
+    border-radius: 8px; /* rounded edges similar to the product containers in the game/hardware tab */
+    background-color: #f9f9f9; 
+    scrollbar-width: thin; 
+    
+    max-width: 100%; /* ensures the flexbox fits the width of the home page*/
 }
 
-.availability:contains('Out of Stock') {
-    color: red; /* Red for out of stock */
+/* Product Card Styling  */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Fixed width for uniformity */
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0; /* Prevents the cards from shrinking */
 }
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Scrollbar Styling for Modern Browsers */
+.scrolling-container::-webkit-scrollbar {
+    height: 8px; /* Scrollbar height */
+}
+
+.scrolling-container::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 4px; /* Rounded scrollbar */
+}
+
+.scrolling-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Scrollbar hover color */
+}
+
