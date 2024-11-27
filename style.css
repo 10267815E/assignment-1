@@ -398,11 +398,23 @@ nav ul li a:hover {
 }
 
 footer {
-    position: sticky;
+    bottom: 0;
     background-color: #000000;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* about section and copyright info will be centered */
+    padding: 20px;
+    color: #f9f9f9;
 }
 
-.footer-text {
-    color:#f9f9f9
-    
+.about-us-title {
+    text-align: center;
+    margin-bottom: 10px; /* Spacing between About Us and Copyright Info */
+}
+
+.copyright-stuff {
+    text-align: center;
+    font-size: xx-small;
+    color: #ffffff;
+    margin: 0;
 }
