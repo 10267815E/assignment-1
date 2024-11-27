@@ -397,3 +397,12 @@ nav ul li a:hover {
     background: #555; /* Scrollbar hover color */
 }
 
+footer {
+    position: sticky;
+    background-color: #000000;
+}
+
+.footer-text {
+    color:#f9f9f9
+    
+}
