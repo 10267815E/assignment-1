@@ -515,3 +515,16 @@ footer {
     background-color: red;
     color: white;
 }
+
+.bought-items{
+    width: 700px;
+    margin: 15px 0 50px 50px; /* Top, Right, Bottom, Left */
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: left;
+    float: left;
+}
