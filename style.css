@@ -435,3 +435,38 @@ footer {
     margin: 0;
 }
 
+.showcase-box{
+    width: 600px;
+    margin: 50px 0 50px 50px; /* Top, Right, Bottom, Left */
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    float: left;
+}
+
+.showcase-box img{
+    width: 500px;
+    border-radius: 4px; /* Slightly rounded image corners to match the theme of the other boxes */
+    margin-bottom: 10px;
+}
+
+.showcase-box h1{
+    font-size: xx-large;
+}
+
+.product-info{
+    max-width: 600px;
+    margin: 15px 0 50px 50px; /* Top, Right, Bottom, Left */
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: left;
+    float: left;
+}
