@@ -421,6 +421,7 @@ footer {
     align-items: center; /* about section and copyright info will be centered */
     padding: 20px;
     color: #f9f9f9;
+    height: 400px;
 }
 
 .about-us-title {
@@ -516,5 +517,44 @@ footer {
     color: white;
 }
 
+/* Cart Items Section */
+.bought-items {
+    width: 700px;
+    margin: 15px 0 50px 50px; /* Top, Right, Bottom, Left */
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: left;
+    float: left;
+    height: 200px;
+}
 
+/* Checkout Section */
+.check-out-button {
+    width: 300px;
+    margin: 15px 50px 20px 0px; /* Top, Right, Bottom, Left */
+    padding: 20px;
+    background-color: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    float: right;
+}
+
+/* Recommended Products Section */
+.recommendation-section {
+    clear: both;
+    margin: 40px 50px; /* Adds spacing for the section */
+}
+
+.recommendation-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: left;
+}
 
