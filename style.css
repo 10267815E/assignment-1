@@ -10,17 +10,21 @@ nav {
     position: sticky;
     top: 0;
     z-index: 10; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    display: flex;
 }
 
 nav ul li {
-    float: left;
+    float: none; /* Use flex instead of float */
 }
 
 nav ul li a {
@@ -33,6 +37,13 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #575757;
+}
+
+/* Logo Styling */
+.nav-logo {
+    height: 50px; /* Adjust height as needed */
+    width: auto;  /* Maintain aspect ratio */
+    margin-left: auto; /* Push logo to the far right */
 }
 
 /* Slideshow Styles */

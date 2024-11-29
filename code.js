@@ -1,3 +1,5 @@
+//slideshow new code
+
 (function() {
   let slideIndex = 0;
 
