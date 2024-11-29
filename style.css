@@ -558,3 +558,22 @@ footer {
     text-align: left;
 }
 
+.checkout-button {
+    display: inline-block; /* Makes it behave like a button */
+    text-align: center;
+    text-decoration: none; /* Removes underline from links */
+    width: 90%; /* Matches the width of the previous button */
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.checkout-button:hover {
+    background-color: #218838; /* Darker green for hover */
+}
+
