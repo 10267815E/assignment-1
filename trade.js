@@ -1,3 +1,5 @@
+// Code for the trade-in form that displays user's responses
+
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('trade-in-form');
     const tradeInDetailsDiv = document.getElementById('trade-in-details');
