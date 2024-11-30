@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #b8b6b6;
+    background-color: #d8d8d8;
 }
 
 /* Navigation Bar */
@@ -52,16 +52,18 @@ nav ul li a:hover {
     display: none;
 }
 
-.fade {
+.fade {                /*animation for slide images to fade out*/
     animation-name: fade;
     animation-duration: 1.5s;
 }
 
+/*Controls the fading effect by altering the opacity of the image*/
 @keyframes fade {
     from {opacity: 0.4} 
     to {opacity: 1}
 }
 
+/*Centers the dots*/
 .dots-container {
     text-align: center;
     padding: 10px;
@@ -77,6 +79,7 @@ nav ul li a:hover {
     transition: background-color 0.6s ease;
 }
 
+/*When the dot is active (when it's respective image is showing), the color changes to indicate that)*/
 .dot.active {
     background-color: #717171;
 }
@@ -129,14 +132,14 @@ nav ul li a:hover {
 }
 
 .FAQ-box h1 {
-    text-align: center;
+    text-align: center;  /*centers the text*/
     margin-bottom: 20px;
     font-size: 24px;
     color: #333;
 }
 
 .FAQ-box ol {
-    list-style-type: decimal; 
+    list-style-type: decimal; /*numbers the list*/
     padding-left: 20px; 
 }
 
@@ -145,7 +148,7 @@ nav ul li a:hover {
 }
 
 .FAQ-box .question {
-    font-weight: bold;
+    font-weight: bold; 
     color: #333;
     margin-bottom: 5px; 
 }
@@ -156,6 +159,7 @@ nav ul li a:hover {
     margin-left: 15px; 
     line-height: 1.5; 
 }
+
 /* Store Locator Section */
 .store-locator {
     max-width: 700px; 
@@ -265,7 +269,7 @@ nav ul li a:hover {
     margin-right: auto;
     padding: 20px;
     max-width: 800px; /* Ensures alignment with the sale banner */
-    display: grid; /* Enables grid layout */
+    display: grid; /* Enables grid layout so that the items are displayed properly */
     grid-template-columns: repeat(4, 1fr); /* 4 items per row */
     gap: 20px; /* Space between items */
 }
@@ -437,7 +441,7 @@ footer {
 }
 
 .social-links ul li a:hover {
-    color: #ffffff;
+    color: #ffffff;        /*The text changes colour when user hovers over it*/
 }
 
 /* Company Logo Section */
@@ -601,7 +605,7 @@ footer {
 .trade-in-button-container{
     display: flex;            /* Enable flexbox */
     justify-content: center;  /* Center horizontally */
-    align-items: center;      /* Center vertically (if you want to vertically center it) */
+    align-items: center;      
     height: 80px; 
 }
 
