@@ -1,16 +1,19 @@
 # assignment-1
-Your Project's Name
-One or two paragraphs providing an overview of your project. Tell us about your project.
+Playstop E-commerce site
 
-Essentially, this part is your sales pitch.
+Playstop is a fictional company in Singapore that sells games, consoles and other gaming peripheral, similiar to real-life stores in Singapore such as TOY OR GAME or GameStop in the United States. Though Playstop has a physical store, it wants to reach a broader audience. Though physical game stores are still quite popular with the youth, a large percentage of gamers now prefer to shop online. Hence, PlayStop has now decided to open up a website, where it hopes to bring in new audiences as well as retain its shoppers.
 
-Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+Design Process:
+As stated above, this website is for gamers that patronise Playstop and also gamers that prefer to buy their games online. The website helps Playstop in reaching a broader audience as many gamers do not like going to the physical store to purchase games, it also helps to trivialise the game buying process. This is evident in the fact that many gamers now own digital copies of the game rather than the physical ones, hence, I can infer that they prefer buying games online. That is why Playstop is now opening a website that displays their physical stock online so that these gamers might choose to purchase them online instead.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+I believe a website is the best way to achieve such a goal as many physical game stores out there such as TOY OR GAME and GameStop have websites that show their physical stock, and also so that they can receive pre-orders through the website.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+I also wanted to implement a trade-in system to incentivise more gamers to shop at Playstop.
+
+Personally, as a gamer myself, I much prefer to shop for games online anyway due to the convenience. Hence, I think this goal of making buying games a convenience is relatable.
+
+Wireframe:
+https://www.figma.com/design/eLuqKschIeFUvY4A0WY7oN/ID_10267815E_Foong-Mun-Yip-Xander_Assg1_wireframe?node-id=0-1&t=ceGeHUb22I0jmxJi-1
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
