@@ -52,29 +52,35 @@ https://www.figma.com/design/eLuqKschIeFUvY4A0WY7oN/ID_10267815E_Foong-Mun-Yip-X
   -Hit submit
   -User's value are displayed correctly below the short form
 
+My project works in Edge and Chrome as intended. 
 
-
-
-
-
-
+However, when I adjust the screen size, the navigation bar at the top tends to get squeezed, causing it to not cover the entire screen.
 
 # Credits:
 
-  
+1. Content
+
+-The "About Us:" section was written by me.
+
+-The description of Dragon Ball: Sparking! Zero was taken from TOY OR GAME's website: https://toyorgame.com.sg/
+
+-The description of the PS5 was generated via Copilot
+
+-All prices were also obtained from TOY OR GAME's website: https://toyorgame.com.sg
+
+2. Media
+
+-All box art and product images were obtained from TOY OR GAME's website: https://toyorgame.com.sg/
+
+-The slide show images of Dragon Ball: Sparking! Zero, Black Myth Wukong and Assassin's Creed Shadows were obtained online from: https://en.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero, https://www.instant-gaming.com/en/7678-buy-black-myth-wukong-pc-game-steam-europe-and-us-and-canada/ and https://wccftech.com/ubisoft-releases-assassins-creed-shadows-stealth-gameplay-overview/ respectively.
+
+
+3. Aknowledgements
+
+-This project is largely inspired by TOY OR GAME and its website. I tried to recapture the website's look and simplified it, which you can see from the grid-like display of the product containers and the slide show. 
+
+-The trade-in aspect of the website is inspired by GameStop's trade-in system. The inspiration for the trade-in website came from their site: https://www.gamestop.com/trade/
 
 
 
 
-
-
-
-
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
