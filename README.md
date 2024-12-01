@@ -70,6 +70,8 @@ However, when I adjust the screen size, the navigation bar at the top tends to g
 
 2. Media
 
+-Logo was made by me in Canva
+
 -All box art and product images were obtained from TOY OR GAME's website: https://toyorgame.com.sg/
 
 -The slide show images of Dragon Ball: Sparking! Zero, Black Myth Wukong and Assassin's Creed Shadows were obtained online from: https://en.bandainamcoent.eu/dragon-ball/dragon-ball-sparking-zero, https://www.instant-gaming.com/en/7678-buy-black-myth-wukong-pc-game-steam-europe-and-us-and-canada/ and https://wccftech.com/ubisoft-releases-assassins-creed-shadows-stealth-gameplay-overview/ respectively.
