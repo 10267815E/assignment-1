@@ -46,11 +46,11 @@ https://www.figma.com/design/eLuqKschIeFUvY4A0WY7oN/ID_10267815E_Foong-Mun-Yip-X
 # Testing:
 
 1. Trade-in form:
-  -Go to the trade-in page
-  -Click the trade-in form button
-  -Enter the three answers for the three questions
-  -Hit submit
-  -User's value are displayed correctly below the short form
+  i.  Go to the trade-in page
+  ii. Click the trade-in form button
+  iii.Enter the three answers for the three questions
+  iv. Hit submit
+  v.  User's value are displayed correctly below the short form
 
 My project works in Edge and Chrome as intended. 
 
